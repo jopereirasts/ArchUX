@@ -4,10 +4,13 @@ import Home from './components/Home/Home';
 import UX from './components/UX/UX';
 import AI from './components/AI/AI';
 import Garrett from './components/Garrett/Garrett';
+import Navbar from './components/Navbar/Navbar';
+
 
 export default function App() {
  return (
   <BrowserRouter>
+    <Navbar />
     <Routes>
       <Route path='/' element={<Home />}/>
       <Route path='/ux' element={<UX />}/>
