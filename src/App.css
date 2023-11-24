@@ -1,12 +1,12 @@
 .banner {
   color: white;
-  background-color: blueviolet;
+  background-color: rgb(54, 44, 57);
   height: 10rem;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-top: 6rem;
-  border-radius: 2rem;
-  font-weight: bold;
+  border-radius: 0.1rem;
+  font-weight: lighter;
   font-size: 39px;
 }
 
@@ -20,14 +20,34 @@
 h1 {
   color: rgb(61, 18, 100);
   text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-p {
+.text {
   text-align: justify;
   margin: 2rem 3rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
   color: rgb(61, 18, 100);
   text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.exampleimg {
+  width: 55%;
+  max-width: 25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.legendfigure {
+  font-size: 12px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
 }
