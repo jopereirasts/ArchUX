@@ -1,0 +1,32 @@
+.banner {
+  color: white;
+  background-color: blueviolet;
+  height: 10rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 6rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 39px;
+}
+
+.divisor {
+  height: 1px;
+  background-color: rgb(86, 29, 139);
+  margin: 1rem;
+  opacity: 50%;
+}
+
+h1 {
+  color: rgb(61, 18, 100);
+  text-align: center;
+}
+
+.paragraph {
+  text-align: justify;
+}
+
+h2 {
+  color: rgb(61, 18, 100);
+  text-align: center;
+}
