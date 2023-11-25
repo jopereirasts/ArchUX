@@ -4,7 +4,7 @@
   height: 10rem;
   text-align: center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-top: 6rem;
+  padding-top: 4rem;
   border-radius: 0.1rem;
   font-weight: lighter;
   font-size: 39px;
@@ -59,8 +59,8 @@ nav {
 }
 
 nav a {
-  font-weight: bold;
   color: #fff;
   margin-right: 11px;
   text-decoration: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

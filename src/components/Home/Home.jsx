@@ -42,13 +42,13 @@ export default function Home() {
       <h2> Avaliação</h2>
       <p className='text'>
         15 heurísticas  foram criadas e organizadas de acordo cada um do Planos de Garrett para avaliação de sistemas.
-        Ver mais.
+        <Link to="/heuristicas"> Ver Mais.</Link>
       </p>
       <div className='divisor'></div>
       <h2> Design </h2>
       <p className='text'>
       Sugestão de Técnicas para utilizar no design de aplicações, de acordo com cada um dos planos Garrett.
-      Veremos mais em breve. :)
+      <Link to="/tecnicas"> Ver mais.</Link>
       </p>
       {/*TODO
       FAZER ACCORDION DA PAGINA PRINCIPAL*/}
