@@ -1,5 +1,5 @@
 import '../../App.css'
-import ai from '../../img/ai.png'
+import h1 from '../../img/cardImgs/h1.jpeg'
 
 export default function AI() {
   
@@ -9,20 +9,35 @@ export default function AI() {
       <div className='banner'>
         Heurísticas
       </div>
+      <div className='divisor'></div>
       <p className='text'>
-      A Arquitetura da Informação (AI) é um campo fundamental no design e organização de sistemas de informação, como websites e aplicativos, que visa tornar a informação acessível, compreensível e fácil de navegar. A AI concentra-se na estrutura, categorização e hierarquia das informações, com o objetivo de melhorar a usabilidade e a experiência do usuário. Ela desempenha um papel crucial na organização e na apresentação de conteúdo de maneira lógica e intuitiva.
+      Baseadas no texto do Garrett, em problemas encontrados no artigo 
+      <a href='https://drive.google.com/file/d/1kbFP1scZfLI5QXRFsE7YdhIDKkRVh1yz/view' target="_blank">"A problem 
+      analysis in game-based student response system from ux elements perspective"</a>, e em conceitos 
+      gerais de usabilidade e UX, 15 heurísticas foram criadas e organizadas de acordo cada um do Planos de Garrett. 
       </p>
-      <p className='text'>
-      Um dos principais elementos da Arquitetura da Informação é a criação de mapas do site ou wireframes, que representam visualmente a estrutura da informação, os relacionamentos entre os elementos e a disposição de conteúdo em uma interface. Além disso, a AI envolve a definição de taxonomias e sistemas de categorização para classificar e organizar o conteúdo de forma coerente, permitindo que os usuários encontrem informações relevantes com facilidade.
-      </p>
-      <img src={ai} alt='Exemplo de Wireframe' className='exampleimg'/>
-      <p className='legendfigure'>Exemplo de Wireframe</p>
-      <p className='text'>
-      A acessibilidade é outra dimensão importante da AI, pois se concentra em garantir que a informação seja acessível a todas as pessoas, independentemente de suas habilidades ou deficiências. Uma AI bem planejada pode melhorar a experiência de todos os usuários, incluindo aqueles que dependem de tecnologias assistivas.
-      </p>
-      <p className='text'>
-      Em resumo, a Arquitetura da Informação é essencial para criar sistemas de informação eficazes e usáveis. Ela se concentra na organização, estrutura e acessibilidade da informação, garantindo que os usuários possam encontrar e compreender o conteúdo de forma intuitiva e eficiente. Uma boa AI contribui significativamente para a satisfação do usuário e o sucesso de um projeto de design de informação.
-      </p>
+      <div className='divisor'></div>
+      <h2>Plano Estratégia</h2>
+      <div className='card'>
+        <img src={h1} alt='Heurística 1' width='180px'></img>
+        <div className='cardTitle'>
+            H1 - Aplicação para mais de um tipo de usuário
+        </div>
+        <div className='cardText'>
+        Deve-se ter atenção para que, conforme os objetivos, a aplicação seja pensada 
+        para mais de um tipo de usuário. Exemplo: aplicações de ensino baseadas em jogos/competição 
+        podem ter modos de controle de tempo, para usuários mais competitivos e menos competitivos 
+        poderem utilizar.
+        </div>
+      </div>
+      <div className='divisor'></div>
+      <h2>Plano Escopo</h2>
+      <div className='divisor'></div>
+      <h2>Plano Estrutura</h2>
+      <div className='divisor'></div>
+      <h2>Plano Esqueleto</h2>
+      <div className='divisor'></div>
+      <h2>Plano Superfície</h2>
     </>
   )
 }

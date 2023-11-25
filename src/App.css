@@ -64,3 +64,26 @@ nav a {
   text-decoration: none;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.card {
+  border-radius: 0.5rem;
+  border: 0.1rem solid black;
+  width: 20rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.cardTitle {
+  font-weight: bold;
+  text-align: center;
+}
+
+.cardText {
+  text-align: center;
+}
+
+.card > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

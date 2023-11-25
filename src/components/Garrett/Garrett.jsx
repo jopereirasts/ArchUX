@@ -9,6 +9,7 @@ export default function Garrett() {
       <div className='banner'>
         Planos de Garrett
       </div>
+      <div className='divisor'></div>
       <img src={levels} alt='Níveis de UX de Garrett' className='exampleimg'/>
       <p className='legendfigure'>Níveis de UX de Garrett</p>
       <p className='text'>

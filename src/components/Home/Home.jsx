@@ -49,10 +49,7 @@ export default function Home() {
       <p className='text'>
       Sugestão de Técnicas para utilizar no design de aplicações, de acordo com cada um dos planos Garrett.
       <Link to="/tecnicas"> Ver mais.</Link>
-      </p>
-      {/*TODO
-      FAZER ACCORDION DA PAGINA PRINCIPAL*/}
-      
+      </p>      
     </>
   )
 }

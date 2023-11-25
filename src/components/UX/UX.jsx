@@ -8,6 +8,7 @@ export default function UX() {
       <div className='banner'>
         User Experience (UX)
       </div>
+      <div className='divisor'></div>
       <p className='text'>
       A experiência do usuário, conhecida como User Experience (UX), é um conceito fundamental no design de produtos e serviços digitais. Ela se refere à interação entre um usuário e um sistema, concentrando-se na qualidade dessa interação e no grau de satisfação do usuário. Uma boa UX busca tornar a utilização do produto ou serviço eficiente, intuitiva e agradável, atendendo às necessidades e expectativas do usuário.
       </p>

@@ -1,5 +1,5 @@
 import '../../App.css'
-import ai from '../../img/ai.png'
+import meet from '../../img/reuniao.jpeg'
 
 export default function AI() {
   
@@ -9,19 +9,24 @@ export default function AI() {
       <div className='banner'>
         Sobre Nós
       </div>
+      <div className='divisor'></div>
       <p className='text'>
-      A Arquitetura da Informação (AI) é um campo fundamental no design e organização de sistemas de informação, como websites e aplicativos, que visa tornar a informação acessível, compreensível e fácil de navegar. A AI concentra-se na estrutura, categorização e hierarquia das informações, com o objetivo de melhorar a usabilidade e a experiência do usuário. Ela desempenha um papel crucial na organização e na apresentação de conteúdo de maneira lógica e intuitiva.
+      Somos alunos bolsistas do Projeto Super, um projeto entre a SAMSUNG e a Universidade Federal do Amazonas (UFAM) que visa estimular a capacitação e a pesquisa em 11 cursos de graduação.
       </p>
       <p className='text'>
-      Um dos principais elementos da Arquitetura da Informação é a criação de mapas do site ou wireframes, que representam visualmente a estrutura da informação, os relacionamentos entre os elementos e a disposição de conteúdo em uma interface. Além disso, a AI envolve a definição de taxonomias e sistemas de categorização para classificar e organizar o conteúdo de forma coerente, permitindo que os usuários encontrem informações relevantes com facilidade.
+      Nossa task "WP3-ICOMP-1-UX" tem grande ênfase em usabilidade e UX, tendo também outros trabalhos em desenvolvimento voltados a esse tema. 
       </p>
-      <img src={ai} alt='Exemplo de Wireframe' className='exampleimg'/>
-      <p className='legendfigure'>Exemplo de Wireframe</p>
+      <img src={meet} alt='Reunião do Time' className='exampleimg'/>
+      <p className='legendfigure'>Reunião da Equipe</p>
       <p className='text'>
-      A acessibilidade é outra dimensão importante da AI, pois se concentra em garantir que a informação seja acessível a todas as pessoas, independentemente de suas habilidades ou deficiências. Uma AI bem planejada pode melhorar a experiência de todos os usuários, incluindo aqueles que dependem de tecnologias assistivas.
+      Caso exista alguma dúvida ou sugestão para melhoria deste trabalho, nossos emails para são:
       </p>
       <p className='text'>
-      Em resumo, a Arquitetura da Informação é essencial para criar sistemas de informação eficazes e usáveis. Ela se concentra na organização, estrutura e acessibilidade da informação, garantindo que os usuários possam encontrar e compreender o conteúdo de forma intuitiva e eficiente. Uma boa AI contribui significativamente para a satisfação do usuário e o sucesso de um projeto de design de informação.
+      Brendo: bcss@icomp.ufam.edu.br (Bolsista) <br/>
+      Jo: jo.pereira@icomp.ufam.edu.br (Bolsista) <br/>
+      Genildo: genildo.gomes@icomp.ufam.edu.br (Monitor)<br/>
+      Bruno: bruno@icomp.ufam.edu.br (Professor orientador)<br/>
+      Tayana: tayana@icomp.ufam.edu.br (Professora orientadora)
       </p>
     </>
   )

@@ -9,6 +9,7 @@ export default function AI() {
       <div className='banner'>
         Arquitetura da Informação (AI)
       </div>
+      <div className='divisor'></div>
       <p className='text'>
       A Arquitetura da Informação (AI) é um campo fundamental no design e organização de sistemas de informação, como websites e aplicativos, que visa tornar a informação acessível, compreensível e fácil de navegar. A AI concentra-se na estrutura, categorização e hierarquia das informações, com o objetivo de melhorar a usabilidade e a experiência do usuário. Ela desempenha um papel crucial na organização e na apresentação de conteúdo de maneira lógica e intuitiva.
       </p>
