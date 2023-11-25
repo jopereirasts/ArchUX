@@ -17,6 +17,16 @@
   opacity: 50%;
 }
 
+.barDivisor {
+  height: 15px;
+  width: 1px;
+  background-color: white;
+  display: inline-flex;
+  opacity: 50%;
+  margin-right: 0.7rem;
+  margin-left: 0.1rem;
+}
+
 h1 {
   color: rgb(61, 18, 100);
   text-align: center;
